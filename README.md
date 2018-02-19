@@ -1,25 +1,31 @@
-# ReduxSimpleStarter
+## Note-taking application
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+A note-taking application made with ReactJS, react-router and Redux for educational purposes only. You can create as many notes as you want, each onde with a title, category and content. Write anything you want! Then you can see all the notes you've created in a list. Clicking in a single note will give you the ability to read more informations and even delete it.
 
-### Getting Started
+## How to run
 
-There are two methods for getting started with this repo.
+1. Clone or download this repository to your local machine. You can do this with your terminal or downloading a ZIP file.
+    * If you choose the terminal way, you should click the Clone or download green button in this page, copy the url and in your terminal type: 'git clone pasteURL'
 
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
+2. Now that you have the project in your local machine, go into the project's folder (through your terminal, by doing cd project's path) and run the command 'npm start'
 
-```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
-> npm install
-> npm start
-```
+3. By doing so, you will be able to run a local server, probably based on PORT 8080 (check your terminal). Then, you just have to go into any browser and type 'localhost:8080'
 
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
+4. Hopefully you can see the application running :smile:
 
-```
-> npm install
-> npm start
-```
+## Learnings
+
+As the main goal of this application was to learn more about ReactJS, I will point out some of the interesting concepts I was able to learn:
+
+* Redux and redux-promise
+* Middleware concepts
+* react-router-dom properties
+* Routes and dynamic components
+* Libraries like axios and lodash
+* Form validation
+
+## Tribute
+
+This project was based on a Stephen Grider course named 'Modern React with Redux'. Also, the boilerplate structure was cloned from his github repository [here](https://github.com/StephenGrider)
+
+Thank you Stephen!
